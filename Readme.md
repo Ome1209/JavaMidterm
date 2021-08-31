@@ -17,3 +17,9 @@
 - We will be reviewing everyones midterm answers in class together on submission date. Please make sure you can explain your answers.
 
 # BEST OF LUCK TO YOU ALL
+# JavaMidterm
+# JavaMidterm
+# JavaMidterm
+# JavaMidterm
+# JavaMidterm
+# JavaMidterm

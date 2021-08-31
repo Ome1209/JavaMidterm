@@ -48,38 +48,50 @@ Answer:The worst case complexity is O(n/2) (equivalent to O(n)) when element is 
 the array. The best case complexity is O(1) when element is first or last element in the array.
 
 Describe what a tree data structure is?
-Answer:
+Answer:A tree is a hierarchical data structure defined as a collection of nodes.
 
 Describe what a graph data structure is?
-Answer:
+Answer:A graph data structure consists of a finite (and possibly mutable) set of vertices (also called nodes or points),
+together with a set of unordered pairs of these vertices for an undirected graph or a set of ordered pairs for a
+directed graph.
 
 What is the difference between the HashTable and HashMap?
-Answer:
+Answer:HashMap allows one null key and multiple null values whereas Hashtable doesn't allow any null key or value.
 
 What are the major data structures used in the following areas : RDBMS, Network data model and Hierarchical data model
-Answer:
+Answer:RDBMS = Array (i.e. Array of structures)
+       Network data model = Graph.
+       Hierarchical data model = Trees.
 
 How do HashMaps work in Java? How do they store values, and when are they useful?
-Answer:
+Answer:HashMap internally stores mapping in the form of Map. Entry object which contains both key and value object.
+When you want to retrieve the object, you call the get() method and again pass the key object.
 
 What is ArrayIndexOutOfBoundsException in java? When does it occur?
-Answer:
+Answer:The ArrayIndexOutOfBoundsException occurs whenever we are trying to access any item of an array at
+an index which is not present in the array. In other words, the index may be negative or exceed the size of an array.
 
 What are the different ways of copying an array into another array?
-Answer:
+Answer:Create a new array of the same length and copy each element.
 
 What is DFS and BFS?
-Answer:
+Answer:BFS stands for Breadth First Search. DFS stands for Depth First Search. 2. BFS(Breadth First Search)
+uses Queue data structure for finding the shortest path. DFS(Depth First Search) uses Stack data structure.
 
 What is Recursion?
-Answer:
+Answer:The process in which a function calls itself
+directly or indirectly is called recursion and the corresponding function is called as recursive function.
 
 What are linear and non-linear data Structures?
-Answer:
+Answer:linear data structure, data elements are arranged in a linear order where each and every elements are attached
+to its previous and next adjacent. In a non-linear data structure, data elements are attached in hierarchically manner.
 
 
 Outline different sorting algorithms and their time complexities:
-
+Quick Sort.
+Bubble Sort.
+Merge Sort.
+Insertion Sort.
 
 Draw a table with time complexity in which it will summarize all the data structure feature's advantages and disadvantages.
   a) In terms of Accessing elements:
