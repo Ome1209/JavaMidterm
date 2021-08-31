@@ -1,0 +1,236 @@
+***ANSWER ALL QUESTIONS BELOW***
+
+What is a programming language?
+Answer:A programming language is a computer language programmers use to develop software programs, scripts, or
+other sets of instructions for computers to execute.
+
+What is a JDK composed of? Define each components?
+Answer:JDK is Java Development Kit. Two popular components are JRE (Java Runtime Error) and JVM (Java Virtual Machine)
+
+What is an IDE?
+Answer:IDE (Integrated Development Environment) is a software application that enables users to write and debug
+Java programs.
+
+What are some of the most popular Java IDEs available in the market?
+Answer:Some of the most popular Java IDEs are IntelliJ, Eclipse, XCode and etc
+
+Explain the entire java life cycle.
+Answer:The life cycle begins from the text editior which ends up being saved as a .java file. The .java file then
+goes to the Java compiler which creates a .class file to be made. The .class file which now contains bytecodes is
+now loaded into memory by the class loader. After confirming the bytecodes are valid the JVM will read the memory and
+translate it to machine coad
+
+What is a class?
+Answer:Class is a template to build objects and define object data types and methods
+
+What is an object?
+Answer:An Object is a basic unit of Object-Oriented Programming and represents the real life entities.
+
+What is the entry point of an application?
+Answer:The main method would be the entry point
+
+Why is the main() static?
+Answer:Java main() method is always static, so that compiler can call it without the creation of an object
+or before the creation of an object of the class.
+
+Which class is the superclass of all classes?
+Answer:Object Class
+
+What is difference between path and classpath variables?
+Answer:The main difference between PATH and CLASSPATH is that  PATH is an environment variable that is used to locate
+JDK binaries and use them to run java programs and compile the java source file. On the other
+hand, CLASSPATH, an environment variable is used by System or Application ClassLoader to locate and load compile Java
+bytecodes stored in the .class file.
+
+What is the difference between an Interface and Abstract class?
+Answer: Abstract class can have final, non-final, static and non-static variables.
+The interface has only static and final variables.An interface can extend another Java interface only, an abstract
+class can extend another Java class and implement multiple Java interfaces.
+
+Can you make an Object from an Interface and Abstract class? If yes or no, how would you do it?
+Answer:You cannot create an object of abstract class or interface since they are
+incomplete class
+
+What is Access Modifier?
+Answer:Access modifiers are keywords that  helps to restrict
+the scope of a class, constructor, variable, method, or data member.
+
+What is OOP? Define each OOP concept.
+Answer:Object-Oriented programming (OOP) is a programming paradigm that relies on the concept of classes and objects.
+The 5 OOP concepts are encapsulation, inheritance, polymorphism, class/objects and interfaces/methods
+
+What is Java Package and which package is imported by default?
+Answer:A package is a namespace that organizes a set of related classes and interfaces.
+The Java compiler automatically imports the java. lang package by default
+
+What is an API? List some API's that you have used so far.
+Answer:API stands for Application Programming Interface. One that has recently been shown is the JSON API
+
+Does java support multiple inheritance? Why or why not?
+Answer:Multiple inheritance is not supported by Java using classes ,
+multiple inheritance is very complex. It creates problem during various operations like casting,
+constructor chaining etc and the above all reason is that there are very few scenarios on which we actually need
+multiple inheritance, so better to omit it for keeping the things simple and straightforward.
+
+What is method overloading and when does it happen?
+Answer:If a class has multiple methods having same name but different in parameters, it is known as Method Overloading.
+
+Explain exceptions in java and how to handle them.
+Answer:Exception handling ensures that the flow of the program doesn't break when an exception occurs.
+For example, if a program has bunch of statements and an exception occurs mid-way after executing certain statements
+then the statements after the exception will not execute and the program will terminate abruptly.
+
+What is static keyword? When and how do we use it?
+Answer:t static is keyword is used to define the class member that can be used independently
+of any object of that class
+
+What is final keyword? When and how do we use it?
+Answer:Final keyword in Java has three different uses: create constants,
+prevent inheritance and prevent methods from being overridden.
+
+Explain the difference between final, finally and finalize?
+Answer:The final keyword can be used with class method and variable. A final class cannot be inherited, a final method cannot be overridden and a final variable cannot be reassigned.
+
+       The finally keyword is used to create a block of code that follows a try block. A finally block of code always executes, whether or not an exception has occurred. Using a finally block allows you to run any cleanup-type statements that you just wish to execute, despite what happens within the protected code.
+
+       The finalize() method is used just before object is destroyed and can be called just prior to object creation.
+
+What is a constructor?
+Answer:A constructor in Java is a special method that is used to initialize objects.
+The constructor is called when an object of a class is created.
+
+Can we have multiple constructors in a class?
+Answer:There can be more than one constructor defined in a class. This is called overloading the constructor.
+
+If we don't have a constructor declared, what is called during the object creation?
+Answer:
+
+What is "this" keyword in Java? When would we use it?
+Answer: "this" is used to refer current-class’s instance as well as static members.
+An instance in when we can use "this" is when we use it to return the current class instance or
+to refer instance variable of current class
+
+What is "super" keyword in Java? What are some scenarios we would use it?
+Answer:a reference variable which is used to refer immediate parent class object.
+An instance of using a "super" can be used to refer immediate parent class instance variable.
+
+What does JVM stand for?
+Answer:Java Virtual Machine
+
+Is JVM platform independent?
+Answer:No, JVMs are not platform independent. In fact they are platform specific run time environment provided by
+the vendor. Each platform (Windows, UNIX, Mac etc) has its own JVM to run Java applications.
+
+What version of Java are you using?
+Answer:java version "11.0.12" 2021-07-20 LTS
+
+What does JAR stand for?
+Answer:JAR stands for Java ARchive
+
+What is the difference between JDK and JVM?
+Answer:The Java Runtime Environment (JRE) provides the libraries, the Java Virtual Machine, and other
+components to run applets and applications written in the Java programming language.
+Java Development Kit (JDK) is a software development environment which is used to develop Java applications
+and applets. It physically exists. It contains JRE + development tools.
+
+What is the difference between JVM and JRE?
+Answer:The Java Runtime Environment (JRE) provides the libraries, the Java Virtual Machine, and other
+components to run applets and applications written in the Java programming language.
+JVM is the virtual machine that runs the Java bytecodes.
+
+Explain the difference between compile-time and run-time?
+Answer:Compile time is when the program is compiled; runtime is when it executes
+
+What is heap?
+Answer:Heap is the area of memory used to store objects instantiated by applications running on the JVM.
+
+How does Java manage its memory?
+Answer:Memory management is the process of allocation and de-allocation of objects, called Memory management.
+In Java, memory management is done automatically using a system called Garbage Collector
+
+What is the difference between String, StringBuffer and StringBuilder?
+Answer:
+String is immutable which means that once it has been created it can't be changed
+StringBuffer is a synchronized thread safe which means two threads can't call the methods of
+ StringBuffer simultaneously.
+ StringBuilder is non-synchronized not thread safe which means two threads can
+ call the methods of StringBuilder simultaneously.
+
+What is Singleton class?
+Answer:A singleton class is a class that can have only one object at a time
+
+What is Serialization and Deserialization?
+Answer:Serialization converting the state of an object into a byte stream.
+Deserialization is the reverse process where the byte stream is used to recreate the actual Java object in memory.
+
+Explain the difference between While and Do..While loops?
+Answer:
+
+What is Enum?
+Answer:Enum is a special data type that enables for a variable to be a set of predefined constants
+
+What is Iterator?
+Answer:Iterator is an object that can be used to loop through collections, like ArrayList and HashSet.
+It is called an "iterator" because "iterating" is the technical term for looping.
+
+Which one will take more memory: an int or Integer? Why?
+Answer:
+
+Why are Strings considered to be immutable in Java?
+Answer:The String is immutable in Java because of the security, synchronization and concurrency, caching, and
+class loading.
+
+What is constructor chaining in Java?
+Answer:Constructor chaining is the process of calling one constructor from another constructor with
+respect to current object.
+
+The difference between Serial and Parallel Garbage Collector?
+Answer:The only difference between serial and parallel garbage collector is that serial garbage collector
+uses a single thread for garbage collection process while the parallel garbage collector uses multiple threads
+for the garbage collection.
+
+What does JIT stands for?
+Answer:Just in Time
+
+Explain the process of Java garbage collection?
+Answer:Java garbage collection is the process by which Java programs perform automatic memory management.
+
+Can you guarantee the garbage collection process?
+Answer:
+You really can't force Java GC. The Java garbage collection algorithm are non-deterministic,
+and while all of these methods can motivate the JVM to do GC, you can't actually force it.
+
+What is the difference between stack and heap in Java?
+Answer:Stack is a linear data structure whereas Heap is a hierarchical data structure.
+
+What is reflection in Java and why is it useful?
+Answer:Reflection is a feature in the Java programming language. It allows an executing Java program to examine
+upon itself, and manipulate internal properties of the program.
+
+What is multithreading in Java?
+Answer:Multithreading refers to a process of executing two or more threads simultaneously
+for maximum utilization of the CPU.
+
+What is synchronization in Java?
+Answer:is the capability to control the access of multiple threads to any shared resource.
+
+What is a Framework?
+Answer:frameworks are bodies of prewritten code used by developers to create apps using the Java programming language
+
+What are the testing Frameworks available in Java?
+Answer:Selenium and JUnit are 2 examples of Frameworks available in Java
+
+What are jUnit and testNG?
+Answer:JUnit is an open-source framework used to trigger and write tests.
+TestNG is a Java-based framework that is an upgraded option for running tests.
+
+What are the dependencies for this project?
+Answer:Dependencies are the relationships of the preceding tasks to the succeeding tasks.
+
+What is dependency injection in Java?
+Answer:Dependency injection (DI) is the concept in which objects get other
+ required objects from outside. DI can be implemented in any programming language.
+
+Explain what static binding and dynamic binding is?
+Answer:Static binding happens when all information needed to call a function is available at the compile-time.
+Dynamic binding happens when the compiler cannot determine all information needed for a function call at compile-time.

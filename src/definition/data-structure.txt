@@ -1,0 +1,88 @@
+***ANSWER ALL QUESTIONS BELOW***
+
+Why do we need data structure?
+Answer:Java programmers use data structures to store and organize data,
+
+What are the various operations that can be performed on different data structures?
+Answer:The most common ones are Traversal, Insertion, Deletion, Searching, Sorting and Merging.
+
+When would we use data structures in the real world?
+Answer:To implement back functionality in the internet browser.
+
+What is an Array?
+Answer:An array is a container object that holds a fixed number of values of a single type.
+
+What is the difference between Array and ArrayList?
+Answer:An array is basic functionality provided by Java. ArrayList is part of collection framework in Java.
+Therefore, array members are accessed using [], while ArrayList has a set of methods to access elements and modify them
+
+What is a LinkedList?
+Answer:A linked list is a linear data structure, in which the elements are not stored at contiguous memory locations.
+
+How is an Array different from LinkedList?
+Answer:An array is a collection of elements of a similar data type.
+A linked list is a collection of objects known as a node where node consists of two parts, i.e., data and address.
+
+What is a Queue?
+Answer:Queue represents a data structure designed to have elements
+inserted at the end of the queue, and elements removed from the beginning of the queue.
+
+What is a Stack (not Java memory - refers to data structure)?
+Answer:Stack is a linear data structure which follows a particular order in which the operations are performed.
+
+What is FIFO and LIFO?
+Answer:FIFO is an abbreviation for first in, first out. It is a method for handling data structures where
+the first element is processed first and the newest element is processed last and
+LIFO is an abbreviation for Last in, first out is same as first in, last out (FILO).
+
+Explain Big O Notation?
+Answer:Big-O notation is the language we use for talking about how long an
+algorithm takes to run (time complexity) or how much memory is used by an algorithm
+
+What is the best case to search an element from an array?
+Answer:The most common algorithm to search an element in an unsorted array is using a linear search,
+checking element by element from the beginning to the end, this algorithm takes O(n) complexity.
+
+What is the worst case to search an element from an array?
+Answer:The worst case complexity is O(n/2) (equivalent to O(n)) when element is in the middle or not present in
+the array. The best case complexity is O(1) when element is first or last element in the array.
+
+Describe what a tree data structure is?
+Answer:
+
+Describe what a graph data structure is?
+Answer:
+
+What is the difference between the HashTable and HashMap?
+Answer:
+
+What are the major data structures used in the following areas : RDBMS, Network data model and Hierarchical data model
+Answer:
+
+How do HashMaps work in Java? How do they store values, and when are they useful?
+Answer:
+
+What is ArrayIndexOutOfBoundsException in java? When does it occur?
+Answer:
+
+What are the different ways of copying an array into another array?
+Answer:
+
+What is DFS and BFS?
+Answer:
+
+What is Recursion?
+Answer:
+
+What are linear and non-linear data Structures?
+Answer:
+
+
+Outline different sorting algorithms and their time complexities:
+
+
+Draw a table with time complexity in which it will summarize all the data structure feature's advantages and disadvantages.
+  a) In terms of Accessing elements:
+  b) In terms of Inserting elements:
+  c) In terms of Searching elements:
+  d) In terms of Removing elements:
