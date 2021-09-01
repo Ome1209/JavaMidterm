@@ -21,7 +21,7 @@ public class Pattern {
             if (start <0) {
                 break;
             }
-            for (int j = 10; j > 0; j--) {
+            for (int a  = 10; a > 0; a--) {
                 start = start -n;
                 if (start < 0) {
                     break;
