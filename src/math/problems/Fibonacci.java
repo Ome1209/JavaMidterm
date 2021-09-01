@@ -21,11 +21,6 @@ public class Fibonacci {
             int sum = previousNumber + nextNumber;
             previousNumber = nextNumber;
             nextNumber = sum;
-
-
         }
-
-
     }
-
 }
