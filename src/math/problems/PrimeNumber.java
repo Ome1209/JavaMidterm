@@ -10,7 +10,31 @@ public class PrimeNumber {
 
          Print out the prime numbers in the given range.
          */
+        int start = 2;
+        int end = 1000;
+        prime(start, end);
+
 
     }
 
+    public static void prime(int start, int end) {
+        for (int i = start; i <= end; i++) {
+            int divide = 0;
+            for (int j = 1; j <= i; j++) {
+
+                if (i % j == 0) {
+                    divide++;
+                }
+            }
+            if (divide == 2) {
+                System.out.print(i + ",");
+            }
+
+        }
+    }
+
 }
+
+
+
+
